@@ -206,14 +206,15 @@
             
             <div class="row contact-row">
                 <div class="col-lg-7">
-                    <form action="error.html" method="post">
+                    <!-- <form action="error.html"> -->
                         <div class="form-group">
                             <input type="text" name="name" placeholder="Name" class="form-control">
                             <input type="email" name="email" placeholder="Email Address" class="form-control">
                             <textarea name="message" id="" cols="30" rows="10" placeholder="Message" class="form-control"></textarea>
-                            <button class="btn btn-block btn-primary" type="submit">SEND</button>
+                            <button class="btn btn-block btn-send">SEND</button>
+                            <p class="err-msg">I'm sorry but you're not able to send me a message as I am still working on this. Thank you.</p>
                         </div>
-                    </form>
+                    <!-- </form> -->
                 </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center">
                     <div class="phone d-flex">
@@ -253,5 +254,6 @@
         </div>
     </section>
 
+    <script src="js/index.js"></script>
 </body>
 </html>

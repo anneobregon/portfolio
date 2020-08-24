@@ -25,6 +25,11 @@ p {
     color: #ffffff;
 }
 
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(51,61,69,0.25)
+}
+
 .container-fluid {
     padding: 100px 0;
 }
@@ -236,6 +241,17 @@ li {
     font-weight: bold;
 }
 
+.err-msg {
+    visibility: hidden;
+    color: #E71D36;
+    font-size: 14px;
+}
+
+
+.visible {
+    visibility: visible;
+}
+
 
 /* FOOTER  */
 #footer {
@@ -249,6 +265,10 @@ li {
 
 #footer img {
     width: 75px;
+}
+
+.footer-text {
+    font-size: 14px;
 }
 
 .social-links {
@@ -377,7 +397,7 @@ li {
 
     /* FOOTER  */
     .footer-text {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
